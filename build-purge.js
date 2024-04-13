@@ -2,7 +2,7 @@ const fs = require("fs").promises;
 const path = require("path");
 const { PurgeCSS } = require("purgecss");
 
-const directoryPath = "./public";
+const directoryPath = "../public";
 
 async function purgeCSSFiles(directory) {
   try {

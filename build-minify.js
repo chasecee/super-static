@@ -5,7 +5,7 @@ const minifyHTML = require("html-minifier").minify;
 const UglifyJS = require("uglify-js");
 const CleanCSS = require("clean-css");
 
-const directoryPath = "./public";
+const directoryPath = "../public";
 
 async function minifyFile(filePath) {
   const ext = path.extname(filePath).toLowerCase();

@@ -2,7 +2,7 @@ const fs = require("fs").promises;
 const path = require("path");
 const sharp = require("sharp");
 
-const directoryPath = "./";
+const directoryPath = "../public";
 let skippedImagesCount = 0;
 
 async function convertImageToWebp(filePath) {
